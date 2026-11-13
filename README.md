@@ -11,6 +11,8 @@ Comandos:
 
 A escolha fica guardada entre sessões. O terminal não muda.
 
+Cada resposta do Claude tem um botão "Copiar", que copia a resposta inteira. Com o mod ligado, o app não deixa selecionar um trecho com o mouse dentro do balão. Para copiar só um pedaço, use `/whatsapp off`, selecione e ligue de novo.
+
 Limites: as mensagens não trazem horário, então a hora é a do momento em que o balão apareceu na tela. Depois de recarregar o mod, as mensagens antigas mostram a hora do recarregamento. O app não diz ao mod se está em tema claro ou escuro, por isso o modo é escolhido no comando. Combine o modo do mod com o tema do app para o texto não ficar escuro sobre fundo escuro.
 
 ## Como instalar

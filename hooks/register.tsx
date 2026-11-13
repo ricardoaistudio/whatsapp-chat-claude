@@ -186,7 +186,8 @@ export const register: Register = on => {
     if (m === 'off') return next(e)
     const p = PALETTES[m]
     const hora = await hourFor($, e.requestId)
-    const { Box, Text, Markdown } = $.ui.resolve(e)
+    const { Box, Text, Markdown, Button } = $.ui.resolve(e)
+    const texto = e.props.text
 
     return (
       <Box flexDirection="row" justifyContent="flex-start" paddingRight={8}>
@@ -198,8 +199,15 @@ export const register: Register = on => {
           paddingX={1}
           flexShrink={1}
         >
-          <Markdown text={e.props.text} />
-          <Box flexDirection="row" justifyContent="flex-end">
+          <Markdown text={texto} />
+          <Box flexDirection="row" justifyContent="flex-end" gap={1}>
+            <Button
+              label="Copiar"
+              onPress={press => {
+                void $.ui.copy({ text: texto, surface: press.surface })
+                $.ui.toast('Resposta copiada.')
+              }}
+            />
             <Text size="caption" color={p.meta}>{hora}</Text>
           </Box>
         </Box>
