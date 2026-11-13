@@ -1,0 +1,5 @@
+{
+  "name": "whatsapp-chat-claude",
+  "owner": { "name": "Ricardo IA Studio" },
+  "plugins": [{ "name": "whatsapp-chat", "source": "./" }]
+}

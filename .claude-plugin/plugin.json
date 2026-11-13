@@ -1,0 +1,7 @@
+{
+  "name": "whatsapp-chat",
+  "version": "0.1.0",
+  "description": "Mostra a conversa como uma tela de WhatsApp: balões verdes à direita, brancos à esquerda, hora no canto e fundo com textura",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
