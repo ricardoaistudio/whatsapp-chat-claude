@@ -1,5 +1,14 @@
 {
   "name": "whatsapp-chat-claude",
-  "owner": { "name": "Ricardo IA Studio" },
-  "plugins": [{ "name": "whatsapp-chat", "source": "./" }]
+  "owner": {
+    "name": "Ricardo Guardado, Ricardo IA Studio",
+    "url": "https://www.instagram.com/ricardoiastudio/"
+  },
+  "plugins": [
+    {
+      "name": "whatsapp-chat",
+      "source": "./"
+    }
+  ],
+  "description": "Mods para o Claude desktop feitos por Ricardo Guardado, da Ricardo IA Studio"
 }

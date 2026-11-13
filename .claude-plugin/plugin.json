@@ -1,7 +1,13 @@
 {
   "name": "whatsapp-chat",
   "version": "0.1.0",
-  "description": "Mostra a conversa como uma tela de WhatsApp: balões verdes à direita, brancos à esquerda, hora no canto e fundo com textura",
+  "description": "Só aparência: mostra a conversa do Claude desktop como uma tela de WhatsApp. Não conecta ao WhatsApp. Feito por Ricardo Guardado, Ricardo IA Studio",
   "types": "./types/index.d.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "author": {
+    "name": "Ricardo Guardado (Ricardo IA Studio)",
+    "url": "https://www.instagram.com/ricardoiastudio/"
+  },
+  "homepage": "https://github.com/ricardoaistudio/whatsapp-chat-claude",
+  "repository": "https://github.com/ricardoaistudio/whatsapp-chat-claude"
 }
